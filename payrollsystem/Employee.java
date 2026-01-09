@@ -24,4 +24,5 @@ public abstract class Employee {
     public String getDetails() {
         return "ID: " + id + " | " + name + " (" + jobTitle + ")";
     }
+
 }
