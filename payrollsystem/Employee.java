@@ -6,8 +6,8 @@ package payrollsystem;
 
 public abstract class Employee {
     // 1. Three Attributes
-    protected String name;
     protected int id;
+    protected String name;
     protected String jobTitle;
 
     // 2. Constructor
@@ -24,4 +24,5 @@ public abstract class Employee {
     public String getDetails() {
         return "ID: " + id + " | " + name + " (" + jobTitle + ")";
     }
+
 }
